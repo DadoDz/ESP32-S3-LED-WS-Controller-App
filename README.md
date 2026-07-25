@@ -36,7 +36,7 @@ The app connects to a WebSocket server (whatever sits between the phone/desktop 
 
 - [Flutter SDK](https://docs.flutter.dev/get-started/install)
 - An ESP32-S3 (or similar) running firmware that speaks the JSON schema above over WebSocket
-- A WebSocket endpoint reachable from your device (e.g. `ws://192.168.x.xx:8080/ws`)
+- A [WebSocket](https://github.com/DadoDz/iot-websocket-relay) endpoint reachable from your device (e.g. `ws://192.168.x.xx:8080/ws`)
 
 ### Setup
 
