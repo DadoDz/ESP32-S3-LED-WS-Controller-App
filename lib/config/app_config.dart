@@ -6,6 +6,6 @@
 class AppConfig {
   static const String websocketUri = String.fromEnvironment(
     'WEBSOCKET_URI',
-    defaultValue: 'ws://192.168.1.11:8080/ws',
+    defaultValue: 'ws://192.168.x.xx:8080/ws',
   );
 }
