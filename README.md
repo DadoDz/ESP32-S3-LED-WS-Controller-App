@@ -61,7 +61,7 @@ Use `wss://` instead of `ws://` if your server is behind TLS.
 ```
 lib/
 ├── config/          # App-wide config (WebSocket URI)
-├── models/          # LedState — the shared JSON schema
+├── models/          # LedState - the shared JSON schema
 ├── services/        # LedService — WebSocket connection, debouncing, reconnect logic
 ├── screens/         # Dashboard screen
 ├── theme/           # App theming
